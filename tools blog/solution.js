@@ -19,7 +19,7 @@ let posts = [
     title: "🏢 Technology Tower – The Nerve Centre of Innovation",
     content:
       "Amid the sprawling campus of VIT, the Technology Tower stands tall as a beacon of innovation and progress. Housing cutting-edge labs, collaborative spaces, and startup incubators, it’s where ideas take shape and dreams turn into reality. Whether it’s late-night coding sessions or brainstorming breakthroughs, Tech Tower fuels the spirit of invention at VIT.",
-    author: "saranshu",
+    author: "saranshu❤️",
     date: "15/08/2025, 10:02:42 am",
   },
   {
