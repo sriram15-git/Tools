@@ -22,10 +22,11 @@ app.get("/", async (req, res) => {
   }
 });
 
-// Route to render the edit page
+// Route to render the edit page 
 app.get("/new", (req, res) => {
   res.render("modify.ejs", { heading: "New Post", submit: "Create Post" });
 });
+
 
 app.get("/edit/:id", async (req, res) => {
   try {
@@ -42,6 +43,7 @@ app.get("/edit/:id", async (req, res) => {
 });
 
 // Create a new post
+
 app.post("/api/posts", async (req, res) => {
   try {
     const response = await axios.post(`${API_URL}/posts`, req.body);
@@ -68,6 +70,7 @@ app.post("/api/posts/:id", async (req, res) => {
 });
 
 // Delete a post
+
 app.get("/api/posts/delete/:id", async (req, res) => {
   try {
     await axios.delete(`${API_URL}/posts/${req.params.id}`);
